@@ -36,5 +36,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run AWS Cli
-        run: |
-          aws sts get-caller-identity
+        run: aws sts get-caller-identity
